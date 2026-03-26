@@ -120,3 +120,162 @@ VillaVilleKulla is a premium mountain villa consisting of **two rental units**:
 ---
 
 ## 📁 Project Structure
+VillaVilleKulla/
+├── index.html # Complete single-page website
+├── README.md # Project documentation
+└── assets/ # (Optional) Local assets
+├── images/ # Property photos
+└── icons/ # SVG icons
+
+
+---
+
+## 🖼️ Sections Overview
+
+| # | Section | Background | Description |
+|---|---|---|---|
+| 1 | **Navigation** | Transparent → White | Fixed navbar, logo, bilingual switcher, Book Now CTA |
+| 2 | **Hero** | Image + dark overlay | Full-screen hero with parallax, staggered text animations |
+| 3 | **O nama / About** | Warm white | Two-column layout — text + image with gold frame |
+| 4 | **Pogodnosti / Amenities** | Near-black | 6 feature cards with custom SVG icons |
+| 5 | **Sauna Highlight** | Image + overlay | Cinematic parallax section highlighting private sauna |
+| 6 | **Vila / Villa** | Warm white | Two units showcase + shared amenities with SVG icons |
+| 7 | **Galerija / Gallery** | Warm white | 12-image responsive grid with lightbox |
+| 8 | **Lokacija / Location** | Light gray | Distance cards + Google Maps embed |
+| 9 | **Kontakt / Contact** | Near-black | Contact info + form + host info |
+| 10 | **Booking CTA** | Image + overlay | Full-width call-to-action with parallax |
+| 11 | **Footer** | Darkest black | Logo, nav links, social, copyright |
+
+---
+
+## 🎨 Design System
+
+### Colors
+```css
+--bg-primary:        #FAFAF8   /* Warm white */
+--bg-secondary:      #F2F0EB   /* Warm light gray */
+--bg-dark:           #0C0C0C   /* Near-black */
+--bg-dark-secondary: #161616   /* Slightly lighter dark */
+--text-primary:      #1A1A1A   /* Near-black text */
+--text-secondary:    #4A4A4A   /* Dark gray body text */
+--text-light:        #FAFAF8   /* Light text on dark */
+--text-muted-light:  #A0A0A0   /* Muted on dark */
+--accent:            #C6A664   /* Warm gold */
+--accent-hover:      #D4B877   /* Light gold */
+--accent-dark:       #A68B4B   /* Dark gold */
+
+/* Headings */
+font-family: 'Cormorant Garamond', serif;
+font-weight: 300; /* Light — elegant */
+
+/* Body */
+font-family: 'Inter', sans-serif;
+font-weight: 300-400;
+line-height: 1.8;
+
+/* Labels */
+font-family: 'Inter', sans-serif;
+font-size: 11-13px;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+
+Icons
+All icons are inline SVGs with:
+
+stroke: #C6A664 (gold)
+stroke-width: 1 (thin, elegant)
+fill: none (outline only)
+width/height: 40px (amenities) or 24px (location)
+🌐 External Links
+
+Service	URL
+Booking.com	https://www.booking.com/hotel/me/vila-vilekula.sr.html
+Instagram (Villa)	https://www.instagram.com/villavillekulla_kolasin/
+Instagram (Host)	https://www.instagram.com/sandrabulatovicc
+Instagram (Quad Tours)	https://www.instagram.com/montequadtourkolasin/
+WhatsApp	https://wa.me/38268668068
+Phone	tel:+38268668068
+Google Maps	Embedded Map
+🖼️ Image Sources
+
+All images are hosted on ImgBB:
+
+Image	URL	Used In
+Logo	i.ibb.co/5gbjkysw/IMG-3848.png	Navbar, Footer, Favicon
+Exterior	i.ibb.co/qMZj3ChM/IMG-3852.jpg	Hero, Gallery
+Sauna	i.ibb.co/tPbcnwCw/IMG-3853.jpg	Sauna Section, Gallery
+Interior 1	i.ibb.co/SZPRbbY/IMG-3846.jpg	Gallery
+Interior 2	i.ibb.co/8nrQkCD8/IMG-3844.jpg	Gallery, Booking CTA
+Interior 3	i.ibb.co/W4tzf7Rh/IMG-3843.jpg	About, Gallery
+Interior 4	i.ibb.co/PZCvZTCv/434897524.jpg	Gallery
+Interior 5	i.ibb.co/ZRKC2xZ4/434897758.jpg	Gallery
+Interior 6	i.ibb.co/K4qxzRV/434898803.jpg	Gallery
+Interior 7	i.ibb.co/qYtx6JLN/434899543.jpg	Gallery
+Interior 8	i.ibb.co/G3NBsLKn/434899731.jpg	Gallery
+Interior 9	i.ibb.co/pVNCqzS/434900281.jpg	Gallery
+Interior 10	i.ibb.co/3yBTbtz6/434901531.jpg	Gallery
+🚀 Deployment
+
+This is a static website — no server-side processing needed.
+
+Option 1: GitHub Pages
+# Push to GitHub
+git add .
+git commit -m "Initial commit - VillaVilleKulla website"
+git push origin main
+
+# Enable GitHub Pages in repo Settings → Pages → Source: main branch
+
+Option 2: Netlify
+# Drag and drop the project folder to netlify.com/drop
+# Or connect GitHub repo for auto-deploy
+
+Option 3: Vercel
+npm i -g vercel
+vercel
+
+Option 4: Traditional Hosting
+# Upload index.html (and assets/ if any) via FTP to your web host
+
+Custom Domain
+After deploying, connect your custom domain (e.g., villavillekulla.me) through your hosting provider's DNS settings.
+
+📱 Browser Support
+
+Browser	Support
+Chrome 90+	✅ Full
+Firefox 90+	✅ Full
+Safari 14+	✅ Full
+Edge 90+	✅ Full
+iOS Safari	✅ Full (with mobile-specific fixes)
+Chrome Android	✅ Full
+🐛 Known Issues & Fixes Applied
+
+Issue	Fix
+Logo showing as black/white square	Removed CSS filters (brightness, invert) from logo
+Hero image showing only roof	Changed to new image + object-position: center 40%
+Mobile horizontal scroll	Added overflow-x: hidden, fixed parallax on mobile
+Text hard to read on light backgrounds	Darkened body text color to #4A4A4A
+Text hard to read on hero	Strengthened overlay gradient + added text-shadows
+Gallery images not loading on mobile	Fixed clip-path animations + background-attachment
+Language switcher hidden on mobile	Repositioned to top of mobile menu
+Back-to-top button invisible on light sections	Changed to dark button style (#1A1A1A)
+"Made with ❤️" too faint	Increased opacity to 0.6, gold heart accent
+👤 Owner / Host
+
+Sandra Bulatović
+
+📸 Instagram: @sandrabulatovicc
+📞 Phone: +382 68 668 068
+📄 License
+
+© 2025 VillaVilleKulla, Kolašin. All rights reserved.
+
+This website was built exclusively for VillaVilleKulla. All images are property of the owner.
+
+<div align="center">
+Made with ❤️ in Montenegro
+
+VillaVilleKulla — Vaše planinsko utočište | Your Mountain Retreat
+
+</div> ```
