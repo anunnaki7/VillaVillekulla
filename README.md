@@ -1,7 +1,7 @@
 # 🏔️ VillaVilleKulla — Luxury Mountain Apartment Website
 
 <div align="center">
-  <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" width="300"/>
+[![Logo](https://i.ibb.co/jvpjsmK1/logo.png)](https://imgbb.com/)
 </div>
 
 **Premium single-page website for a luxury mountain apartment rental in Kolašin, Montenegro**
