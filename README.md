@@ -1,4 +1,4 @@
-# 🏔️ VillaVilleKulla — Luxury Mountain Apartment Website
+# 🏔️ VillaVillekulla — Luxury Mountain Apartment Website
 
 <div align="center">
   <img src="https://i.ibb.co/jvpjsmK1/logo.png" alt="Logo" width="200">
