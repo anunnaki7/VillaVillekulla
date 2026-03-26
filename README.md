@@ -162,6 +162,13 @@ VillaVilleKulla/
 
 ---
 
+___
+
+## 📸 Screenshot
+![Website Screenshot](https://api.pikwy.com/web/69c249a5e568ea63e645da00.jpg)
+
+___
+
 ## 🚀 Deployment
 
 1.  **GitHub Pages:** Push to `main` branch and enable Pages in settings.
