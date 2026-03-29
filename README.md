@@ -164,7 +164,7 @@ VillaVilleKulla/
 ---
 
 ## 📸 Screenshot
-![Website Screenshot](src/assets/screenshotmone.png)
+![Website Screenshot](src/assets/villavillekulla.png)
 
 ---
 
