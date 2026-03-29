@@ -166,6 +166,8 @@ VillaVilleKulla/
 ## 📸 Screenshot
 ![Website Screenshot](src/assets/screenshotmone.png)
 
+---
+
 ## 🚀 Deployment
 
 1.  **GitHub Pages:** Push to `main` branch and enable Pages in settings.
