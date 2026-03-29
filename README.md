@@ -163,6 +163,8 @@ VillaVilleKulla/
 
 ---
 
+## 📸 Screenshot
+![Website Screenshot](src/assets/screenshotmone.png)
 
 ## 🚀 Deployment
 
