@@ -1,6 +1,8 @@
 # 🏔️ VillaVillekulla — Luxury Mountain Apartment Website
 
-![Logo Projekta](src/assets/logo.png)
+<p align="center">
+  <img src="src/assets/logo.png" alt="Logo VillaVillekulla" width="200">
+</p> 
 
 **Premium single-page website for a luxury mountain apartment rental in Kolašin, Montenegro**
 
